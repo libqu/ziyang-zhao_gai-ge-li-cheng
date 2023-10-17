@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="zh-Hant">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">url:https://github.com/libqu</dc:identifier>
+		<dc:date>2023-10-16T17:45:26Z</dc:date>
+		<meta property="dcterms:modified">2023-10-16T17:45:26Z</meta>
+		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<meta property="schema:accessibilityFeature">readingOrder</meta>
+		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
+		<dc:title id="title">改革歷程</dc:title>
+		<meta property="file-as" refines="#title">Gai Ge Li Cheng</meta>
+		<dc:subject id="subject-1">China</dc:subject>
+		<dc:subject id="subject-2">history</dc:subject>
+		<dc:subject id="subject-3">politics</dc:subject>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">n79091151-781</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh99005024</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sj2022050294</meta>
+		<meta property="se:subject">Memoir</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">本書是前中共中央總書記趙紫陽口述錄音而成的回憶錄。</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">本書是前中共中央總書記趙紫陽口述錄音而成的回憶錄。2009 年 5 月 29 日於香港出版。這本回憶錄的英文名字是《Prisoner of The State》，臺灣版名為《國家的囚徒》。</meta>
+		<dc:language>zh-Hant</dc:language>
+		<dc:source>https://www.newcenturymc.com/Gaigelicheng_Zhao%20Ziyang.html</dc:source>
+		<dc:source>https://annas-archive.org/md5/7caec6cb97a0d6bc7e76f2ec18bcf2c1</dc:source>
+		<meta property="se:word-count">236000</meta>
+		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://zh.wikipedia.org/zh-hant/%E6%94%B9%E9%9D%A9%E5%8E%86%E7%A8%8B</meta>
+		<dc:creator id="author">趙紫陽</dc:creator>
+		<meta property="file-as" refines="#author">Zhao, Ziyang</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ziyang_Zhao</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+	</metadata>
+	<manifest>
+		<item href="css/core.css" id="core.css" media-type="text/css"/>
+		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/illustration-1.jpg" id="illustration-1.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-2.jpg" id="illustration-2.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-3.jpg" id="illustration-3.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-4.jpg" id="illustration-4.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-5.jpg" id="illustration-5.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-6.jpg" id="illustration-6.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-7.jpg" id="illustration-7.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-8.jpg" id="illustration-8.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-9.jpg" id="illustration-9.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-10.jpg" id="illustration-10.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-11.jpg" id="illustration-11.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-12.jpg" id="illustration-12.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-13.jpg" id="illustration-13.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-14.jpg" id="illustration-14.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-15.jpg" id="illustration-15.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-16.jpg" id="illustration-16.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-17.jpg" id="illustration-17.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-18.jpg" id="illustration-18.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-19.jpg" id="illustration-19.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-20.jpg" id="illustration-20.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-21.jpg" id="illustration-21.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-22.jpg" id="illustration-22.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-23.jpg" id="illustration-23.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-24.jpg" id="illustration-24.jpg" media-type="image/jpeg"/>
+		<item href="images/illustration-25.jpg" id="illustration-25.jpg" media-type="image/jpeg"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/afterword.xhtml" id="afterword.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/appendix.xhtml" id="appendix.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/biography.xhtml" id="biography.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chronology.xhtml" id="chronology.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/editornotes.xhtml" id="editornotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/illustrations.xhtml" id="illustrations.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-3.xhtml" id="part-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-4.xhtml" id="part-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-5.xhtml" id="part-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-6.xhtml" id="part-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	</manifest>
+	<spine>
+		<itemref idref="cover.xhtml"/>
+		<itemref idref="titlepage.xhtml"/>
+		<itemref idref="illustrations.xhtml"/>
+		<itemref idref="editornotes.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
+		<itemref idref="part-3.xhtml"/>
+		<itemref idref="part-4.xhtml"/>
+		<itemref idref="part-5.xhtml"/>
+		<itemref idref="part-6.xhtml"/>
+		<itemref idref="afterword.xhtml"/>
+		<itemref idref="chronology.xhtml"/>
+		<itemref idref="biography.xhtml"/>
+		<itemref idref="appendix.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
+	</spine>
+</package>

@@ -1,0 +1,281 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+body{
+	font-family: "細明體", "新細明體", "Apple LiSung Light", "蘋果儷細宋", "PMingLiU", "MingLiU", serif;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+p:lang(zh){
+	text-indent: 2em;
+}
+
+p:lang(en){
+	font-family: georgia, serif;
+}
+
+header p:lang(zh),
+hgroup p:lang(zh),
+p.no-indent{
+	text-indent: 0;
+}
+
+/* footer */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+footer p{
+	padding-right: 2em;
+	text-indent: 2em;
+}
+
+/* on its own page 
+hgroup.full-page{
+	break-after: page;
+	break-before: page;
+	break-inside: avoid;
+	margin: 0;
+	text-align: right;
+} */
+/* letter SB */
+p[epub|type~="z3998:salutation"]{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] footer p{
+	padding-right: 0; /* footer already have extra space */
+}
+
+[epub|type~="z3998:salutation"]{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+blockquote,
+[epub|type~="z3998:letter"]{
+	font-family: "BiauKai", "DFKai-SB", serif;
+}
+
+/* others */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+/* page break */
+.new-page,
+section[epub|type~="chapter"],
+section[epub|type~="appendix"]{
+	page-break-after: always;
+	page-break-before: always;
+}
+
+/* pre-delete
+.author{
+	display: block;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	text-align: center;
+} */
+.author-name{
+	font-weight: bold;
+}
+
+aside{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+aside[epub|type~="z3998:annotation"] p{
+	color: #555; /* Slightly muted color */
+	text-indent: 0;
+}
+
+.highlight{
+	color: #555; /* Slightly muted color */
+}
+
+/* Reset border for the table */
+.chronology table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* Add a bottom border to every table row except the last one */
+.chronology table tr{
+	border-bottom: 3px solid #e0e0e0; /* Adjust the width and color as needed */
+}
+
+.chronology table td,
+.chronology table th{
+	min-width: 9em;
+	padding: 10px 6px;
+}
+
+.chronology table td{
+	text-align: initial;
+	vertical-align: top;
+}
+
+.chronology table p,
+[epub|type="loi"] p{
+	text-indent: 0;
+}
+
+/* don't use this one below for compatible with se tools
+.biography > section:not(:first-child){
+	margin-top: 30px;
+} */
+.biography > section{
+	margin-top: 30px;
+}
+
+.biography > section:first-child{
+	margin-top: unset;
+}
+
+.biography p:first-child{
+	text-indent: 0;
+}
+
+.biography [xml|lang="en-US"]{
+	font-style: italic;
+}
+
+/* illustration */
+/* If the image is meant to be on its own page, use this selector... */
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	break-inside: avoid;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
+
+/* In all cases, also include the below styles */
+figure{
+	break-inside: avoid;
+	margin: 1em 40px;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+
+figcaption p + p{
+	text-indent: 0;
+}
+
+/* illustration pages */
+#illustrations figure{
+	break-after: always;
+	break-before: always;
+	margin: 0;
+	page-break-after: always;
+	page-break-before: always;
+}
+
+#illustrations figure img{
+	height: auto;
+	margin-bottom: 1em;
+	margin-top: 0;
+	max-height: 70vh; /* leave some height to caption cause caption will move to second page when too long. */
+}
+
+#illustrations figure figcaption{
+	margin-bottom: 0;
+	margin-top: 0; /* add margin-top from figcaption might result a blank page before the image if the image are very tall */
+}
+
+#editornotes{
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: fixed; /* or absolute */
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+
+#backcover h2,
+#editornotes h2{
+	font-size: 0;
+	left: -999em;
+	position: absolute;
+}
+
+/* make contents in the haldtitle page stays in center */
+section[epub|type~="halftitlepage"],
+section[epub|type~="part"] header,
+#appendix > header{
+	align-items: center; /* Vertically centers the element */
+	display: flex;
+	height: 100vh;
+	justify-content: flex-end;
+	padding-right: 10%; /* 10% space from the right */
+}
+
+section[epub|type~="halftitlepage"] h2,
+#appendix > header h2{
+	font-size: 4.5em;
+	margin: 0; /* Remove default margins */
+	text-align: right;
+}
+
+section[epub|type~="part"] header h2{
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: 0;
+	text-align: right;
+}
+
+section[epub|type~="part"] header h2 [epub|type~="ordinal"]{
+	color: #999; /* Slightly muted color */
+	font-size: 1.3em;
+}
+
+#appendix > header h2{
+	color: #999; /* Slightly muted color */
+	font-weight: normal;
+}
