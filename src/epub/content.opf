@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="zh-Hant">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://github.com/libqu</dc:identifier>
+		<dc:identifier id="uid">url:https://github.com/libqu/ziyang-zhao_gai-ge-li-cheng</dc:identifier>
 		<dc:date>2023-10-16T17:45:26Z</dc:date>
 		<meta property="dcterms:modified">2023-10-16T17:45:26Z</meta>
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
