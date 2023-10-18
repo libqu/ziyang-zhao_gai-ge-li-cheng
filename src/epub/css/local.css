@@ -281,13 +281,13 @@ section[epub|type~="part"] header,
 }
 
 section[epub|type~="halftitlepage"] h2,
-#appendix > header h2{
+#appendix h2{
 	font-size: 4.5em;
 	margin: 0; /* Remove default margins */
 	text-align: right;
 }
 
-section[epub|type~="part"] header h2{
+section[epub|type~="part"] h2{
 	font-size: 3em;
 	font-weight: normal;
 	line-height: 1.5em;
@@ -295,12 +295,12 @@ section[epub|type~="part"] header h2{
 	text-align: right;
 }
 
-section[epub|type~="part"] header h2 [epub|type~="ordinal"]{
+section[epub|type~="part"] h2 div[epub|type~="ordinal"]{
 	color: #999; /* Slightly muted color */
 	font-size: 1.3em;
 }
 
-#appendix > header h2{
+#appendix h2{
 	color: #999; /* Slightly muted color */
 	font-weight: normal;
 }
