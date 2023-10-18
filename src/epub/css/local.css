@@ -205,6 +205,7 @@ figure.full-page{
 /* In all cases, also include the below styles */
 figure{
 	break-inside: avoid;
+	line-height: 1.2em; /* smaller cause font-size here are smaller */
 	margin: 1em 40px;
 	page-break-inside: avoid;
 	text-align: center;
@@ -239,10 +240,8 @@ figcaption p + p:lang(zh){
 }
 
 #illustrations figure img{
-	height: auto;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	margin-top: 0;
-	max-height: 70vh; /* leave some height to caption cause caption will move to second page when too long. */
 }
 
 #illustrations figure figcaption{
