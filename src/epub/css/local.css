@@ -9,6 +9,19 @@ body{
 }
 
 p:lang(zh){
+	text-indent: 2em; 
+}
+
+p:lang(zh).continued,
+h2 + p:lang(zh),
+h3 + p:lang(zh),
+h4 + p:lang(zh),
+h5 + p:lang(zh),
+h6 + p:lang(zh),
+header + p:lang(zh),
+hr + p:lang(zh),
+hgroup + p:lang(zh),
+p:lang(zh):first-child{
 	text-indent: 2em;
 }
 
