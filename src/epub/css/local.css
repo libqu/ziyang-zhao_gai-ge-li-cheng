@@ -12,7 +12,6 @@ p:lang(zh){
 	text-indent: 2em; 
 }
 
-p:lang(zh).continued,
 h2 + p:lang(zh),
 h3 + p:lang(zh),
 h4 + p:lang(zh),
@@ -21,17 +20,18 @@ h6 + p:lang(zh),
 header + p:lang(zh),
 hr + p:lang(zh),
 hgroup + p:lang(zh),
-p:lang(zh):first-child{
+p:first-child:lang(zh){
 	text-indent: 2em;
 }
 
-p:lang(en){
+:lang(en){
 	font-family: georgia, serif;
 }
 
 header p:lang(zh),
 hgroup p:lang(zh),
-p.no-indent{
+p.no-indent,
+p.no-indent:lang(zh){
 	text-indent: 0;
 }
 
@@ -55,7 +55,8 @@ hgroup.full-page{
 	text-align: right;
 } */
 /* letter SB */
-p[epub|type~="z3998:salutation"]{
+p[epub|type~="z3998:salutation"],
+p[epub|type~="z3998:salutation"]:lang(zh){
 	text-indent: 0;
 }
 
@@ -63,7 +64,8 @@ p[epub|type~="z3998:salutation"]{
 	padding-right: 0; /* footer already have extra space */
 }
 
-[epub|type~="z3998:salutation"]{
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:salutation"]:lang(zh){
 	text-indent: 0;
 }
 
@@ -74,7 +76,8 @@ p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:postscript"]{
+[epub|type~="z3998:postscript"],
+[epub|type~="z3998:postscript"]:lang(zh){
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
@@ -114,7 +117,8 @@ aside{
 	margin-top: 1em;
 }
 
-aside[epub|type~="z3998:annotation"] p{
+aside[epub|type~="z3998:annotation"] p,
+aside[epub|type~="z3998:annotation"] p:lang(zh){
 	color: #555; /* Slightly muted color */
 	text-indent: 0;
 }
@@ -146,7 +150,11 @@ aside[epub|type~="z3998:annotation"] p{
 }
 
 .chronology table p,
-[epub|type="loi"] p{
+.chronology table p:lang(zh),
+[epub|type~="endnote"] p:first-child,
+[epub|type~="endnote"] p:first-child:lang(zh),
+[epub|type~="loi"] p,
+[epub|type~="loi"] p:lang(zh){
 	text-indent: 0;
 }
 
@@ -162,7 +170,8 @@ aside[epub|type~="z3998:annotation"] p{
 	margin-top: unset;
 }
 
-.biography p:first-child{
+.biography p:first-child,
+.biography p:first-child:lang(zh){
 	text-indent: 0;
 }
 
@@ -213,7 +222,10 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
+figcaption p:first-child,
+figcaption p:first-child:lang(zh),
+figcaption p + p,
+figcaption p + p:lang(zh){
 	text-indent: 0;
 }
 
