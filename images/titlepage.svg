@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 850">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 900">
 	<title>The titlepage for the Standard Ebooks edition of Gai Ge LI Cheng, by Ziyang Zhao</title>
 	<style type="text/css">
 		text{
 			font-family: "Source Han Sans HC";
 			letter-spacing: 5px;
 			text-anchor: middle;
-		}
-
-		text:lang(en-us){
-			font-family: "League Spartan", "sans-serif";
-			font-variant: small-caps;
-			letter-spacing: 5px;
 		}
 
 		.title{
@@ -22,8 +16,10 @@
 			font-size: 105px;
 		}
 
-		.title-other-lang{
-			font-size: 40px;
+		.title-en{
+			font-family: "League Spartan";
+			/* font-variant: small-caps; */
+			font-size: 45px;
 		}
 
 		.contributor{
@@ -32,10 +28,10 @@
 	</style>
 	<text class="title" x="700" y="160">改革歷程</text>
 	<text class="author" x="700" y="360">趙紫陽</text>
-	<line stroke="blue" stroke-width="7" x1="267" x2="700" y1="445" y2="445"/>
-	<line stroke="yellow" stroke-width="7" x1="700" x2="1133" y1="445" y2="445"/>
-	<text class="title-other-lang" x="700" y="500" xml:lang="en-US">The Secrect Journal Of Zhao Ziyang</text>
-	<text class="contributor" x="700" y="650">杜導正<tspan dx="50">序</tspan></text>
-	<text class="contributor" x="700" y="720">鮑彤<tspan dx="50">導言</tspan></text>
-	<text class="contributor" x="700" y="790">羅德里克•麥克法夸爾<tspan dx="50">代後記</tspan></text>
+	<line stroke="blue" stroke-width="7" x1="267" x2="700" y1="460" y2="460"/>
+	<line stroke="yellow" stroke-width="7" x1="700" x2="1133" y1="460" y2="460"/>
+	<text class="title-en" x="700" y="530">The Secrect Journal Of Zhao Ziyang</text>
+	<text class="contributor" x="700" y="700">杜導正<tspan dx="50">序</tspan></text>
+	<text class="contributor" x="700" y="780">鮑彤<tspan dx="50">導言</tspan></text>
+	<text class="contributor" x="700" y="860">羅德里克•麥克法夸爾<tspan dx="50">代後記</tspan></text>
 </svg>
