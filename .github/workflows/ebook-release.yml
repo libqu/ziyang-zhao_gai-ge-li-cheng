@@ -1,0 +1,9 @@
+name: Main Workflow
+
+on: push
+
+jobs:
+  ebook-release:
+    uses: libqu/workflows/.github/workflows/ebook-release.yml@main
+    secrets: inherit
+
