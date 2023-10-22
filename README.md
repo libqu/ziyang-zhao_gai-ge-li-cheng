@@ -2,6 +2,7 @@
 Formatting
 - [ ] Proof read on different type of devices
 - [ ] Image enhance
+- [ ] Remove <div> from header
 
 Version
 - [ ] Simplified Chinese
