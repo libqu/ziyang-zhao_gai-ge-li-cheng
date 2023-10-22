@@ -2,7 +2,7 @@
 Formatting
 - [ ] Proof read on different type of devices
 - [ ] Image enhance
-- [ ] Remove <div> from header
+- [ ] SE error: div in header
 
 Version
 - [ ] Simplified Chinese
