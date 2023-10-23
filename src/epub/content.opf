@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="zh-Hant">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="zh-Hans">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://github.com/libqu/ziyang-zhao_gai-ge-li-cheng</dc:identifier>
 		<dc:date>2023-10-16T17:45:26Z</dc:date>
 		<meta property="dcterms:modified">2023-10-16T17:45:26Z</meta>
-		<dc:publisher>新世紀出版社</dc:publisher>
+		<dc:publisher>新世纪出版社</dc:publisher>
 		<dc:identifier id="ISBN">9789881720276</dc:identifier>
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="schema:accessMode">textual</meta>
@@ -17,7 +17,7 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">改革歷程</dc:title>
+		<dc:title id="title">改革历程</dc:title>
 		<meta property="file-as" refines="#title">Gai Ge Li Cheng</meta>
 		<dc:subject id="subject-1">China</dc:subject>
 		<dc:subject id="subject-2">history</dc:subject>
@@ -30,15 +30,15 @@
 		<meta property="term" refines="#subject-3">sj2022050294</meta>
 		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">本書是前中共中央總書記趙紫陽口述錄音而成的回憶錄。</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">本書是前中共中央總書記趙紫陽口述錄音而成的回憶錄。2009 年 5 月 29 日於香港出版。這本回憶錄的英文名字是《Prisoner of The State》，臺灣版名為《國家的囚徒》。</meta>
+		<dc:description id="description">本书是前中共中央总书记赵紫阳口述录音而成的回忆录。</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">本书是前中共中央总书记赵紫阳口述录音而成的回忆录。2009 年 5 月 29 日于香港出版。这本回忆录的英文名字是《Prisoner of The State》，台湾版名为《国家的囚徒》。</meta>
 		<dc:language>zh-Hant</dc:language>
 		<dc:source>https://www.newcenturymc.com/Gaigelicheng_Zhao%20Ziyang.html</dc:source>
 		<dc:source>https://annas-archive.org/md5/7caec6cb97a0d6bc7e76f2ec18bcf2c1</dc:source>
 		<meta property="se:word-count">236000</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://zh.wikipedia.org/zh-hant/%E6%94%B9%E9%9D%A9%E5%8E%86%E7%A8%8B</meta>
-		<dc:creator id="author">趙紫陽</dc:creator>
+		<dc:creator id="author">赵紫阳</dc:creator>
 		<meta property="file-as" refines="#author">Zhao, Ziyang</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ziyang_Zhao</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>

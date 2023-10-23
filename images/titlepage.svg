@@ -25,10 +25,10 @@
 			font-size: 50px;
 		}
 	</style>
-	<text class="title" x="700" y="160">改革歷程</text>
-	<text class="author" x="700" y="360">趙紫陽</text>
+	<text class="title" x="700" y="160">改革历程</text>
+	<text class="author" x="700" y="360">赵紫阳</text>
 	<text class="title-en" x="700" y="530">THE SECRECT JOURNAL OF ZHAO ZIYANG</text>
-	<text class="contributor" x="700" y="700">杜導正  序</text>
-	<text class="contributor" x="700" y="780">鮑彤  導言</text>
-	<text class="contributor" x="700" y="860">羅德里克•麥克法夸爾  代後記</text>
+	<text class="contributor" x="700" y="700">杜导正  序</text>
+	<text class="contributor" x="700" y="780">鲍彤  导言</text>
+	<text class="contributor" x="700" y="860">罗德里克•麦克法夸尔  代后记</text>
 </svg>
