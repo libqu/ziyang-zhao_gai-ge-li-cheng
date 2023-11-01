@@ -9,7 +9,7 @@ body{
 }
 
 p:lang(zh){
-	text-indent: 2em; 
+	text-indent: 2em;
 }
 
 h2 + p:lang(zh),
